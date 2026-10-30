@@ -1,0 +1,18 @@
+# Local Supabase development settings. Apply matching settings to the linked
+# project in Supabase Dashboard > Authentication > Email Templates.
+project_id = "habit-trick"
+
+[auth]
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:5173"]
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = true
+otp_length = 6
+otp_expiry = 3600
+
+[auth.email.template.confirmation]
+subject = "Confirm your Habit Trick account"
+content_path = "./supabase/templates/confirmation.html"

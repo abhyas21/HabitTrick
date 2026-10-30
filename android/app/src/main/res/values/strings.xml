@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Habit Trick</string>
+    <string name="title_activity_main">Habit Trick</string>
+    <string name="package_name">com.habittrick.app</string>
+    <string name="custom_url_scheme">habittrick</string>
+</resources>
